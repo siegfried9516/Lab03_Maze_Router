@@ -7,7 +7,7 @@ class Net{
             id_=id;
             source_x=sou_x;
             source_y=sou_y;
-            target_x=tar_x;    
+            target_x=tar_x;
             target_y=tar_y;
         }
         ~Net(){}
