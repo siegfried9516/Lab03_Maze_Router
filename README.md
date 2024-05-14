@@ -41,5 +41,5 @@ it will generate a SVG file for visualization, which can be opened with internet
 6. **Finding the neighbors of ``tmp``**: if ``tmp`` isn't the goal, it's time to explore its neighbors.For each neighbor of ``tmp``, if it isn't in ``Closed`` and it's not a block, then we check if it's in ``Open`` or not. If it's not in ``Open``, we will update its g-value and h-value and update its parent node be ``tmp``,and push it into ``Open`` and update the Heap. If it's in ``Open``, we will check if the g-value of the neighbor which parent is ``tmp`` is lover than the current g-value of the neighbor in ``Open``, if true, we will update the neighbor's parent node and the g-value.
 7. **Return value**: If we find the path to goal, return true, else the ``Open`` is empty, return false.
 ## Authors
-This code was developed by Sieg Lau. For any questions or suggestions, you can report an issue.
+- This code was developed by Sieg Lau. For any questions or suggestions, you can report an issue.
 ---
